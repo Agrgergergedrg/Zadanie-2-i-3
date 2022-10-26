@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+    gap: 30px;
+}
+
+@media all and (min-width: 700px){
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+span.material-icons{
+    display: inline;
+    color: green;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    
+}
+span.red{
+    color: red;
+}
